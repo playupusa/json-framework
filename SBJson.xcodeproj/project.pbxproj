@@ -884,6 +884,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = "non-global";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
@@ -907,6 +908,7 @@
 					SenTestingKit,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_STYLE = debugging;
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
