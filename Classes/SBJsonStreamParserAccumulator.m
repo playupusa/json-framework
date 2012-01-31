@@ -34,7 +34,6 @@
 @synthesize value;
 
 - (void)dealloc {
-    [value release];
     [super dealloc];
 }
 

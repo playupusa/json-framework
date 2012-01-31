@@ -769,7 +769,6 @@
 				ARCHS = (
 					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
 				);
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
@@ -801,7 +800,6 @@
 				ARCHS = (
 					"$(ARCHS_STANDARD_32_BIT)",
 					armv6,
-					armv7,
 				);
 				CLANG_ENABLE_OBJC_ARC = NO;
 				COPY_PHASE_STRIP = NO;
